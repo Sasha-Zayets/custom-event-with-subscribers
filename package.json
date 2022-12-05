@@ -2,7 +2,7 @@
   "name": "custom-event-with-subscribers",
   "version": "1.0.0",
   "description": "Wrapper under CustomEvent with subscribers",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "babel src -d build",
     "start": "babel src -d build --watch"
