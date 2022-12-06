@@ -1,6 +1,6 @@
 {
   "name": "custom-event-with-subscribers",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Wrapper under CustomEvent with subscribers",
   "main": "build/index.js",
   "scripts": {
