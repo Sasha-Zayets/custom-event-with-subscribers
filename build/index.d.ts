@@ -1,11 +1,10 @@
 type Callback = (data: any) => void;
-export declare const customEvent: {
-    createEvent(nameEvent: string, params: any): CustomEvent;
-    dispatch(nameEvent: string, params: any): void;
-    subscribe(event: string, callback: Callback): void;
-    unsubscribe(event: string): void;
+declare function dispatch(nameEvent: string, params?: any): void;
+declare function subscribe(event: string, callback: Callback): void;
+declare function unsubscribe(event: string): void;
+declare const _default: {
+    dispatch: typeof dispatch;
+    subscribe: typeof subscribe;
+    unsubscribe: typeof unsubscribe;
 };
-export declare const dispatch: (nameEvent: string, params: any) => void;
-export declare const subscribe: (event: string, callback: Callback) => void;
-export declare const unsubscribe: (event: string) => void;
-export {};
+export default _default;
