@@ -1,10 +1,14 @@
 {
   "name": "custom-event-with-subscribers",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Wrapper under CustomEvent with subscribers",
   "main": "build/index.js",
   "scripts": {
     "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sasha-Zayets/custom-event-with-subscribers.git"
   },
   "author": "Alex Zaiets",
   "license": "ISC",
